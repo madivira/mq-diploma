@@ -727,6 +727,8 @@ img {
         box-sizing: border-box;
         padding-left: 10%;
         padding-right: 6%;
+        padding-bottom: 5%;
+        padding-top: 5%;
         margin-top: auto;
         margin-bottom: auto;
     }
@@ -766,18 +768,24 @@ img {
 
     .section_container__card_01::after,
     .section_container__card_03::after {
-        top: 60%;
+        top: 50%;
         left: -13px;
     }
 
     .section_container__card_02::after {
-        top: 60%;
+        top: 50%;
         left: calc(100% - 13px);
     }
 
     .section_container__header {
         font-size: 80px;
         line-height: 60px;
+    }
+
+    .section_container__content {
+        font-size: 24px;
+        line-height: 28px;
+        max-width: 635px;
     }
 
     .footer {
