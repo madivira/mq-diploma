@@ -107,8 +107,8 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 8px;
-   
 }
+
 .store-button__title_one {
     font-weight: 400;
 }
@@ -123,7 +123,6 @@ body {
     color: #ffffff;
     font-family: opensans;
     text-transform: uppercase;
-    display: inline-block;
 }
 
 .container_athlets, 
@@ -257,7 +256,7 @@ body {
     position: absolute;
     left: 0;
     top: 22px;
-    border-radius: 1px;
+    border-radius: 2px;
 }
 
 .container_players__card_header_03::after,
@@ -345,7 +344,6 @@ body {
 
 .section_container__header {
     font-size: 28px;
-    padding-bottom: 5px;
     margin: 0;
 }
 
@@ -402,6 +400,9 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
 }
 
 .footer_title__big {
@@ -429,9 +430,8 @@ body {
 
     .title {
         font-size: 64px;
-        padding-top: 155px;
-        padding-bottom: 290px;
         line-height: 72px;
+        margin: 155px auto 290px;
     }
 
     .header__store-buttons {
@@ -457,6 +457,7 @@ body {
     .header__store-button__app, 
     .header__store-button__google {
         padding-left: 13%;
+        width: 87%;
     }
 
     .app_store, .google_play {
@@ -519,11 +520,11 @@ body {
     }
 
     .footer_title__big {
-        font-size: 80px;
+        font-size: 10.3vw;
     }
 
     .footer_title__little {
-        font-size: 36px;
+        font-size: 4.6vw;
         font-weight: 400;
     }
 }
@@ -633,6 +634,7 @@ body {
     
     .footer {
         padding: 120px 1% 25px;
+
     }
 
     .footer::after {
@@ -665,12 +667,9 @@ body {
 
     .title {
         font-size: 90px;
-        padding-top: 260px;
-        padding-bottom: 190px;
         line-height: 80px;
         max-width: 1920px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 260px auto 190px;
     }
 
     .title_two {
@@ -838,7 +837,7 @@ body {
     }
 
     .footer {
-        padding: 220px 10% 45px;
+        padding: 220px 5% 45px;
         align-items: center;
     }
     
@@ -859,6 +858,10 @@ body {
     .footer_title {
         padding-top: 0;
         align-items: flex-start;
+    }
+    
+    .footer_title__big {
+        font-size: 80px;
     }
 
     .footer_title__little {
